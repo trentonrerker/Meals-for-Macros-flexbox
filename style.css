@@ -1,0 +1,144 @@
+html,body {
+  margin: 0;
+  padding; 0;
+  background-color: white;
+  color: white;
+  height: 100%;
+}
+body > div {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #0070bf;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  font-family: Roboto, Open Sans, sans-serif, verdana, arial;
+  font-size: 200%;
+  word-spacing: .25em;
+  text-align: center;
+}
+h1 {
+  position: relative;
+}
+/*nav {
+  position: relative;
+  float: right;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+li {
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  padding-right: 50%;
+  flex: 1;
+
+}
+li > a {
+  text-decoration: none;
+  color: white;
+}
+li > a:hover {
+  color: orange;
+  cursor: pointer;
+}
+li > a:active {
+  background-color: white;
+  color: orange;
+}*/
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4em;
+}
+  /*form {
+  display: inline-block;
+  float: center;
+  background-color: #efefef;
+  width: 100%;
+}
+label {
+  color: orange;
+  margin-right: 5%;
+  font-size: 20px;
+  position: relative;
+  float: left;
+}
+.field {
+  float: left;
+  margin: 5%;
+  border: solid;
+  position: relative;
+}
+input {
+  border: solid transparent;
+  height: 2em;
+  width: 100%;
+}
+button {
+  color: white;
+  background-color: orange;
+  border: none;
+}*/
+form {
+  background-color: #efefef;
+  color: orange;
+  height: 4em;
+  padding: 4em 0 4em 0;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  height: 2em;
+  width: 100em;
+}
+.form input {
+  flex: 1;
+  display: inline-block;
+  
+}
+  /*.form__object--fillspace {
+  flex-grow: 2;
+  margin: 2em;
+}
+.form__object--fillspace-gap { 
+  margin: .5em;
+}*/
+label {
+  /*margin: 2em;*/
+  white-space: nowrap;
+  margin: .5em 2em 0 2em;
+}
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  margin: 0 2em 0 2em;
+}
+footer {
+  /*background-color: #0070bf;
+  display: block;
+  position: relative;
+  text-align: center;
+  height: ;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;*/
+  width: 100%;
+  font-family: Roboto, Open Sans, sans-serif, verdana, arial;
+  font-size: 200%;
+  word-spacing: .25em;
+  text-align: center;
+  background-color: #0070bf;
+  bottom: 0;
+}
+a {
+  color: white;
+  text-decortion: none;
+}
